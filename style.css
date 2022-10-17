@@ -1,0 +1,245 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /*width: 2000px;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    /*position: relative;*/
+    padding-left: 20px;
+}
+
+.rightside {
+    display: flex;
+    /*position: relative;*/
+    flex-direction: column;
+    /*background-color: blueviolet;*/
+    width: 600px;
+    margin-left: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top {
+    display: flex;
+    margin-left: 500px;
+    margin-top: 70px;
+    z-index: 3;
+
+}
+
+.holderName {
+    margin-top: -40px;
+    margin-left: -45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.background {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    background-color: #616d4f;
+    opacity: 60%;
+    z-index: -1;
+    margin-left: -10px;
+    margin-top: -100px;
+}
+
+.picture img {
+
+    /*display: flex;*/
+    position: relative;
+    /*align-content: center;*/
+    width: 400px;
+    max-height: 550px;
+    margin-left: -400px;
+    margin-right: auto;
+    /*margin-top: -00px;*/
+    z-index: 1;
+}
+
+.pictureBlack img {
+    position: relative;
+    width: 50px;
+    height: auto;
+    margin-left: -50px;
+    /*margin-top: 100px;*/
+    z-index: 2;
+}
+
+.skills {
+    display: grid;
+    position: relative;
+}
+
+.skills h3 {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    border-bottom: solid 10px grey;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.line1:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 10px;
+    width: 60%;
+    background: black;
+}
+.line2:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 10px;
+    width: 80%;
+    background: black;
+}
+
+.line3:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 10px;
+    width: 70%;
+    background: black;
+}
+.name {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px;
+    z-index: 3;
+
+
+}
+
+
+.surname {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    letter-spacing: 10px;
+    margin-top: -40px;
+    z-index: 3;
+
+}
+
+.holderName h3 {
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.holderName img {
+    max-height: 2px;
+    max-width: 235px;
+    margin-left: -30px;
+    z-index: 1;
+}
+
+.holderName p {
+    font-size: 20px;
+    margin-left: 70px;
+    max-width: 500px;
+}
+
+h1:first-letter {
+    color: white;
+}
+
+.bottom {
+    display: flex;
+}
+
+.leftside h2 {
+    text-transform: uppercase;
+}
+
+.rightside h2 {
+    text-transform: uppercase;
+}
+
+.rightside h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+
+.rightside p {
+    margin-bottom: 20px;
+}
+
+.leftsidePic {
+    margin-left: 100px;
+}
+
+.verticelStripe img {
+    width: 2px;
+    height: 700px;
+}
+
+
+.aboutMe {
+    display: flex;
+}
+
+.aboutMe img {
+    width: 15px;
+    height: auto;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -29px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 1200px;
+    height: 150px;
+    margin-top: -10px;
+    margin-left: -10px;
+
+}
+
+.footerPic img {
+    width: 25px;
+    height: auto;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footerPic {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
+
+.footerPic h3 {
+    font-size: 17px;
+    color: white;
+    margin-top: 52px;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-right: 70px;
+}
